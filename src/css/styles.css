@@ -19,7 +19,8 @@ html, body{
 }
 
 header{
-    padding: 30px 2%;
+    padding: 20px 2% 35px 2%;
+    height: 130px;
 }
 
 .logo{
@@ -34,7 +35,7 @@ header{
 header nav.desktop{
     float: right;
     position: relative;
-    top: 10px;
+    top: 30px;
 }
 
 header nav.desktop ul{
@@ -49,4 +50,16 @@ header nav.desktop ul li{
 header nav.desktop a{
     color: black;
     text-decoration: none;
+}
+
+section.banner{
+    width: 100%;
+    height: calc(100vh - 130px);
+    min-height: 600px;
+    max-height: 800px;
+    /* background: black; */
+    background-image: url(../images/car1.jpg);
+    background-size: 100% 100%;
+    /* background-position: right bottom; */
+    background-repeat: no-repeat;
 }
