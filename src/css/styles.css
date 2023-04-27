@@ -171,7 +171,8 @@ section.veiculos-destaque .container{
     width: 100%;
     padding-top: 100%;
     border: 8px solid white;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .vitrine h2{
@@ -222,6 +223,31 @@ section.veiculos-destaque .container{
 
     .sigle-text-banner{
         font-size: 18px;
+    }
+
+    section.veiculos-destaque .line-titulo h2{
+        font-size: 13px;
+    }
+
+    section.veiculos-destaque .container{
+        text-align: center;
+    }
+
+    .vitrine{
+        display: inline-block;
+        float: none;
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .vitrine a{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:480px){
+    .vitrine{
+        width: 100%;
     }
 }
 
