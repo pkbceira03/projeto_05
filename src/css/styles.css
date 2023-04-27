@@ -64,3 +64,41 @@ section.banner{
     background-repeat: no-repeat;
 }
 
+.text-banner{
+    padding: 120px;
+}
+
+.sigle-text-banner{
+    width: 314px;
+    padding: 12px 30px;
+    margin-top: 20px;
+    height: 60px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 23px;
+    background-image: url('../images/verm2.png');
+    background-size: 100% 100%;
+}
+
+.sigle-text-banner:nth-of-type(2){
+    width: 200px;
+    position: relative;
+    left: -10px;
+}
+
+.sigle-text-banner:nth-of-type(3){
+    width: 150px;
+    position: relative;
+    left: -20px;
+}
+
+@media screen and (max-width: 580px){
+    .text-banner{
+        padding: 30px;
+    }
+
+    .sigle-text-banner{
+        font-size: 18px;
+    }
+}
+
