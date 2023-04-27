@@ -133,7 +133,7 @@ section.veiculos-destaque{
 
 .line-titulo{
     position: relative;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
@@ -146,7 +146,7 @@ section.veiculos-destaque{
     background: black;
 }
 
-section.veiculos-destaque h2{
+section.veiculos-destaque .line-titulo h2{
     position: relative;
     background: white;
     display: inline-block;
@@ -155,6 +155,54 @@ section.veiculos-destaque h2{
     font-size: 25px;
     font-style: italic;
     text-transform: uppercase;
+}
+
+section.veiculos-destaque .container{
+    max-width: 1000px;
+    padding: 40px 0;
+}
+
+.vitrine{
+    float: left;
+    width: 33.3%;
+}
+
+.vitrine .carro-vitrine{
+    width: 100%;
+    padding-top: 100%;
+    border: 8px solid white;
+    background-size: 100% 100%;
+}
+
+.vitrine h2{
+    padding-left: 8px;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.vitrine p{
+    font-size: 15px;
+    padding-left: 8px;
+    font-style: italic;
+    padding-top: 9px;
+    color: #353535;
+}
+
+.vitrine a{
+    margin-left: 8px;
+    color: white;
+    font-style: italic;
+    /* font-weight: bold; */
+    width: 150px;
+    display: block;
+    margin-top: 10px;
+    line-height: 40px;
+    background-color: #EB2D2D;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 5px solid #B21E1E;
 }
 
 @media screen and (max-width: 720px){
