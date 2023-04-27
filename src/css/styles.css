@@ -33,15 +33,50 @@ header{
     height: 100px;
 }
 
+header nav.mobile{
+    margin-top: 30px;
+    float: right;
+    width: 32px;
+    height: 32px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    background-image: url('../images/more.png');
+    display: none;
+}
+
+header nav.mobile ul{
+    z-index: 999;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    border-bottom: 4px solid #EB2D2D;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+}
+
+header nav.mobile li{
+    font-size: 23px;
+    padding: 20px 0;
+    font-style: italic;
+}
+
+header nav.mobile li a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav.desktop ul{
+    list-style-type: none;
+}
+
+
 header nav.desktop{
     float: right;
     position: relative;
     top: 30px;
 }
 
-header nav.desktop ul{
-    list-style-type: none;
-}
 header nav.desktop ul li{
     float: left;
     font-size: 23px;
@@ -90,6 +125,16 @@ section.banner{
     width: 150px;
     position: relative;
     left: -20px;
+}
+
+@media screen and (max-width: 720px){
+    nav.desktop{
+        display: none;
+    }
+
+    header nav.mobile{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 580px){
