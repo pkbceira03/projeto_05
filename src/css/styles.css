@@ -190,20 +190,59 @@ section.veiculos-destaque .container{
     color: #353535;
 }
 
-.vitrine a{
-    margin-left: 8px;
-    color: white;
-    font-style: italic;
-    /* font-weight: bold; */
-    width: 150px;
+.btn1{
     display: block;
-    margin-top: 10px;
     line-height: 40px;
     background-color: #EB2D2D;
     text-decoration: none;
     text-align: center;
-    font-size: 16px;
     border-bottom: 5px solid #B21E1E;
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+    /* font-weight: bold; */
+    width: 150px;
+}
+
+.vitrine a{
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.half1{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 90px 0;
+    background: #242424;
+    color: white;
+}
+
+.half1-wraper{
+    text-align: left;
+    display: inline-block;
+}
+
+.half1-wraper h2{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.half1-wraper ul{
+    display: inline-block;
+    margin-top: 20px;
+    /* list-style-position: inside; */
+}
+
+.half1-wraper li{
+    margin-left: 15px;
+}
+
+.half1-wraper a{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 40px;
 }
 
 @media screen and (max-width: 720px){
