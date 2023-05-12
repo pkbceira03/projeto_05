@@ -370,7 +370,7 @@ section.venda{
 }
 
 .search1{
-    width: 300px;
+    width: 90%;
 }
 
 .search1 h2{
@@ -429,11 +429,11 @@ section.venda{
     float: right;
 }
 
-.seach2{
+.search2{
     margin-top: 40px;
 }
 
-.seach2 h2{
+.search2 h2{
     font-size: 24px;
     color: black;
     font-weight: normal;
@@ -528,6 +528,27 @@ section.venda{
     .half1,.half2{
         width: 100%;
         padding: 80px 4%;
+    }
+
+    .sidebar{
+        width: 100%;
+        text-align: center;
+    }
+
+    .search1{
+        display: inline-block;
+    }
+
+    .search2{
+        display: inline-block;
+        text-align: left;
+    }
+
+    .vitrine-venda{
+        overflow: hidden;
+        float: left;
+        width: 100%;
+        text-align: center;
     }
 }
 
