@@ -454,6 +454,22 @@ section.venda{
     border: 1px solid #ccc;
     border-radius: 3px;
     cursor: pointer;
+    position: relative;
+}
+
+.circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background: black;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    display: none;
+}
+
+.form-venda-wraper input[type=checkbox]:checked + label > .circle{
+    display: block;
 }
 
 .form-venda-wraper span{
