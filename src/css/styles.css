@@ -487,6 +487,30 @@ section.venda{
     margin-top: 20px;
 }
 
+section.venda-single .container{
+    padding: 40px 0;
+    max-width: 1000px;
+}
+
+.info-veiculo{
+    float: left;
+    width: 60%;
+}
+
+.descricao-veiculo{
+    float: left;
+    width: 40%;
+}
+
+.foto-destaque{
+    width: 100%;
+    padding-top: 70%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../images/pexels-alexgtacar-1592384.jpg');
+}
+
 @media screen and (max-width:1100px){
     .half1{
         text-align: center;
