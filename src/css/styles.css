@@ -494,7 +494,7 @@ section.venda-single{
 }
 
 section.venda-single .container{
-    padding: 40px 0;
+    padding: 40px 0 0 0;
     text-align: center;
     max-width: 1000px;
 }
@@ -534,11 +534,12 @@ section.venda-single .container{
 .nav-galeria-parent{
     width: 100%;
     padding: 36px;
+    position: relative;
 }
 
 .nav-galeria{
     width: 100%;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .nav-galeria-wraper{
@@ -618,10 +619,31 @@ section.venda-single .container{
         width: 100%;
         text-align: center;
     }
+
+    .info-veiculo{
+        width: 100%;
+    }
+
+    .descricao-veiculo{
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .descricao-veiculo a{
+        display: inline-block;
+    }
+
+    .descricao-veiculo p{
+        max-width: none;
+    }
 }
 
 @media screen and (max-width: 720px){
     nav.desktop{
+        display: none;
+    }
+
+    header nav.mobile ul{
         display: none;
     }
 
