@@ -586,6 +586,23 @@ section.sobre .descricao-autor{
     margin-top: 10px;
 }
 
+.descricao-autor2{
+    margin-top: 20px;
+}
+
+.img-small{
+    width: 30%;
+    padding-top: 30%;
+    float: left;
+    background-color: rgb(220,220,220);
+}
+
+.descricao-autor2 p{
+    float: left;
+    width: 70%;
+    padding: 15px;
+}
+
 @media screen and (max-width:1100px){
     .half1{
         text-align: center;
