@@ -326,7 +326,8 @@ section.contato input[type=submit]{
 }
 
 footer{
-    padding: 40px 0;
+    margin-top: 20px;
+    padding: 40px 2%;
     background: #252525;
 }
 
@@ -554,6 +555,35 @@ section.venda-single .container{
     background-size: cover;
     padding-top: calc(33.3% * (100/200) * 0.6);
     width: calc(33.3% * (100/200));
+}
+
+section.sobre{
+    min-height: 90%;
+    padding:40px 2%;
+}
+
+section.sobre .container{
+    max-width: 840px;
+    margin-top: 30px;
+}
+
+section.sobre .img-destaque-sobre{
+    width: 100%;
+    padding-top: 60%;
+    background-color: rgb(220,220,220);
+}
+
+section.sobre .descricao-autor{
+    margin: 20px;
+}
+
+.descricao-autor h2{
+    font-size: 24px;
+}
+
+.descricao-autor p{
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width:1100px){
