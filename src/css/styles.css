@@ -396,7 +396,7 @@ section.venda{
     position: absolute;
     left: 0;
     top: 0;
-    width: 30%;
+    width: 0;
     height: 20px;
     /* background: red; */
     border-radius: 20px;
@@ -407,7 +407,7 @@ section.venda{
     width: 26px;
     height: 26px;
     position: absolute;
-    left: calc(30% - 13px);
+    left: 13px;
     top: -3px;
     cursor: pointer;
     border-radius: 8px;
