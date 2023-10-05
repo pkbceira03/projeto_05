@@ -407,7 +407,7 @@ section.venda{
     width: 26px;
     height: 26px;
     position: absolute;
-    left: 13px;
+    left: 0px;
     top: -3px;
     cursor: pointer;
     border-radius: 8px;
