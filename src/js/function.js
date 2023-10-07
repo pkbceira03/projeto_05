@@ -29,9 +29,29 @@ $(function(){
             $('.barra-preco-fill').css('width', currentValue+'%');
 
             preco_atual = (currentValue/100)*preco_maximo;
+            preco_atual=formatarPreco(preco_atual);
             $('.preco-pesquisa').html('R$' + preco_atual);
         }
     })
+
+    function formatarPreco(preco_atual){
+        preco_atual = preco_atual.toFixed(2);
+        preco_arr = preco_atual.split('.');
+
+        var novo_preco = formatarTotal(preco_arr);
+
+        return novo_preco;
+    }
+
+        function formatarTotal(preco_arr){
+            if(preco_arr[0]<1000){
+                return preco_arr[0]+','+preco[1];
+            }else if(preco_arr[0]<10000){
+                return preco_arr[0][0]+'.'+preco_arr[0].substr(1,preco_arr[0].legth)+'.'+preco_arr[1];
+            }else{
+                return preco_arr[0][0]+preco_arr[0][1]+'.'+preco_arr[0].substr(2,preco_arr[0].lenght)+','+preco_arr[1];
+            }
+        }
 
     function disableTextSelection(){
         $("body").css("-webkit-user-select", "none");
