@@ -1,4 +1,8 @@
 $(function(){
+
+    /*
+        pequisa de preços
+    */
     var currentValue = 0;
     var isDrag = false;
     var preco_maximo = 70000;
@@ -68,4 +72,14 @@ $(function(){
         $("body").css("-o-user-select", "auto");
         $("body").css("user-select", "auto");
     }
+
+    /* 
+        ir para contato
+    */
+
+    $('[goto=contato]').click(function(){
+        $('html, body').animate({'scrollTop':$('#contato').offset().top});
+        return false;
+    })
+
 })
