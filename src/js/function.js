@@ -82,4 +82,15 @@ $(function(){
         return false;
     })
 
+    // checkUrk();
+
+    // function checkUrk(){
+    //     var url = location.href.split('/');
+    //     var curPage = url[url.lenght-1].split('?');
+
+    //     if(curPage[1] != undefined && curPage[1]=='contato'){
+           
+    //     }
+    // }
+
 })
